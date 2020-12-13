@@ -25,12 +25,12 @@ class FrontController extends Controller
         } else{
             $hari = "Minggu";
         }
-        $informatikas = Jadwal::where('hari',"Selasa")->where('prodi','INFORMATIKA')->get();
-        $sipils = Jadwal::where('hari',"Selasa")->where('prodi','TEKNIK SIPIL')->get();
-        $mesins = Jadwal::where('hari',"Selasa")->where('prodi','TEKNIK MESIN')->get();
-        $elektros = Jadwal::where('hari',"Selasa")->where('prodi','TEKNIK ELEKTRO')->get();
-        $arsitekturs = Jadwal::where('hari',"Selasa")->where('prodi','ARSITEKTUR')->get();
-        $sis = Jadwal::where('hari',"Selasa")->where('prodi','SISTEM INFORMASI')->get();
+        $informatikas = Jadwal::where('hari',"Senin")->where('prodi','INFORMATIKA')->get();
+        $sipils = Jadwal::where('hari',"Senin")->where('prodi','TEKNIK SIPIL')->get();
+        $mesins = Jadwal::where('hari',"Senin")->where('prodi','TEKNIK MESIN')->get();
+        $elektros = Jadwal::where('hari',"Senin")->where('prodi','TEKNIK ELEKTRO')->get();
+        $arsitekturs = Jadwal::where('hari',"Senin")->where('prodi','ARSITEKTUR')->get();
+        $sis = Jadwal::where('hari',"Senin")->where('prodi','SISTEM INFORMASI')->get();
         return view('layouts.front', compact('hari','informatikas','sipils','mesins','elektros','arsitekturs','sis'));
     }
 }

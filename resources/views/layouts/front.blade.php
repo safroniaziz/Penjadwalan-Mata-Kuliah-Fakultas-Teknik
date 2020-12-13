@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>SIBANJIR - Halaman Depan</title>
+  <title>Penjadwalan FT - Halaman Depan</title>
   <link rel="shortcut icon" href="{{ asset('assets/images/logo.png') }}">
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
@@ -80,7 +80,7 @@
               <img class="card-img-top" src="{{ asset('assets/images/dekan.jpg') }}" alt="Card image cap">
               <div class="card-body text-center" style="padding:0px !important;">
                 <p class="card-text">
-                  <h5>SAFRONI AZIZ</h5>
+                  <h5 style="text-transform: uppercase;">Faisal Hadi, S.T., M.T.</h5>
                   <h6>DEKAN FAKULTAS TEKNIK</h6>
                 </p>
               </div>
@@ -97,7 +97,7 @@
                 <div class="carousel-item active">
                   <div class="col-md-12">
                       <div class="alert alert-info">
-                          Jdwal Mata Kuliah INFORMATIKA Pada Hari {{ $hari }}
+                          Jadwal Mata Kuliah INFORMATIKA Pada Hari Senin
                       </div>
                   </div>
                     <table class="table table-bordered table-hover" id="kelas">
